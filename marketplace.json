@@ -8,24 +8,24 @@
 
   "constants": {
     "CONNECTION_NAME": {
-      "label": "Connection Name",
+      "label":  "midt_dev_connect_4905",
       "value_constraint": "connection"
     },
     "GCP_PROJECT": {
-      "label": "GCP Project Name"
+      "label":  "sab-dev-proj-dev-dw-4905"
     },
     "REPORTING_DATASET": {
-      "label": "Reporting Dataset Name"
+      "label": "cortex_reporting"
     },
      "CLIENT": {
       "label": "SAP Client ID"
-    }  
+    }
   },
       "models": [
         {
-            "name": "cortex_sap_operational",
-            "connection_constant": "CONNECTION_NAME"
+            "name": "cortex_sap_reporting",
+            "connection_constant":  "midt_dev_connect_4905"
         }
     ]
-  
+
 }
